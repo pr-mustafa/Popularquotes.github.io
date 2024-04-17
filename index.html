@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <div
+      id="main-container"
+      class="vh-100 d-flex flex-column justify-content-center align-items-center text-center"
+    >
+      <h1 class="pt-5 text-uppercase" id="heading">Popular quotes</h1>
+      <img
+        src="./images/william-shakespeare-194895-1-402.jpg"
+        alt=""
+        class="rounded-circle p-3"
+        id="authorPic"
+      />
+      <p class="p-3 fs-5 fst-italic" id="quote">
+        Press the button below to recieve a random quote!
+      </p>
+      <p id="author" class="fw-semibold">- Click to get random quote -</p>
+      <div class="p-3">
+        <button
+          class="btn btn-primary"
+          id="main-button"
+          onclick="generateQuote();"
+        >
+          New Quote
+        </button>
+      </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
